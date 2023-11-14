@@ -3,9 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz</title>
+    <title>Online Quiz</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
 </head>
 <body>
-    
+    <div id="quiz-container">
+        <div id="start-container">
+            <h1>Online Quiz</h1>
+            <button onclick="startQuiz()">Start Quiz</button>
+            <button onclick="viewHighScores()">View High Scores</button>
+        </div>
+        <div id="question-container" style="display: none;">
+            <h2 id="question-text"></h2>
+            <div id="options-container"></div>
+            <p id="timer">Time Remaining: <span id="timer-span">30</span> seconds</p>
+            <button onclick="nextQuestion()">Next Question</button>
+        </div>
+        <div id="result-container" style="display: none;">
+            <h2>Your Score: <span id="score">0</span></h2>
+            <button onclick="restartQuiz()">Restart Quiz</button>
+        </div>
+    </div>
+
+    <script src="./assets/js/main.js"></script>
 </body>
 </html>
