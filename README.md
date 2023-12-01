@@ -17,27 +17,30 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 you can find this project at the deployed page here:
 
-
+https://jacobcampa.github.io/Online-Quiz/
 
 ## Usage
 Below is a screenshot of the main page: 
 
+![main page](./assets/images/Screenshot%20(17).png)
+
 After you click start there will be timer that begins and will show you your first question.
+
+![Quiz start](./assets/images/Screenshot%20(18).png)
 
 Once completed you wil recieve a prompt for your name and that will be imputed into the highscore page.
 
+![Name prompt](./assets/images/Screenshot%20(19).png)
+
 Using the buttons provided you can navigate back to the start and try to best your highscore.
+
+![Leaderboards](./assets/images/Screenshot%20(20).png)
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
+University of Denver Coding Bootcamp
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
 
 ## License
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
-
----
+Refer to the repo for information
